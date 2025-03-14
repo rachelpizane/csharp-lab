@@ -8,7 +8,7 @@ namespace DogName
 {
 	public class DogCanine
 	{
-        private string Name { get; }
+        public string Name { get; }
 
         public int Age { get; set; } = 0;
 

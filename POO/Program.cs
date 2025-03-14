@@ -70,7 +70,7 @@ Console.WriteLine($"Name: {dogcanine.Name}, Age: {dogcanine.Age}, Owner: {dogcan
 DogCanine dogcanine2 = new DogCanine("Ricky", "John");
 Console.WriteLine($"Name: {dogcanine2.Name}, Age: {dogcanine2.Age}, Owner: {dogcanine2.Owner}, Species: {DogCanine.Species}");
 
-dogcanine2.Name = "Max"; 
+// dogcanine2.Name = "Max"; 
 
 dogcanine.Age = 1;
 Console.WriteLine($"Updated Age: {dogcanine.Age}");
